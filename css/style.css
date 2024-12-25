@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #007bff;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.gallery .col {
+    margin-bottom: 15px;
+}
+.nav-tabs .nav-link {
+    color: white !important; 
+}
+.nav-tabs .nav-link.active {
+    background-color: #007bff !important; 
+    color: white !important; 
+    border-color: transparent !important; 
+}
+.nav-tabs {
+    background-color: #343a40; 
+    border-radius: 8px; 
+}
+.left{
+    width: 35%;
+}
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* تغيير الخلفية عند التمرير */
+    border-color: #1877F2; /* اللون الأزرق عند التمرير */
+  }

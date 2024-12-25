@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+<body>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="./img/FIRE FIT LOGO.jpg"
+          height="50"
+          alt="fire fit logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pistols.html">pistols</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./machine gun.html">Machine gun</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./shotguns.html">Shootgun</a>
+          </li>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./snipers.html">sniper</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./weapons ammunition.html">Weapons ammunition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./missiles.html">Missiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pomps.html">Pomps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./white weapons.html">white weapons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./tanks.html">Tanks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./armored vehicles.html">Armored Vehicles</a>
+          </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="link-secondary me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="link-secondary me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item" href="#">Some news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Another news</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          data-mdb-dropdown-init
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          aria-expanded="false"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="#">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+  <div class="row">
+    <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/1.jpg"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">M1A2 أبرامز (M1A2 Abrams)</h5>
+              <p class="card-text">
+                دبابة قتال رئيسية أمريكية، تُعتبر من الأكثر تقدمًا في العالم. مزودة بمدفع عيار 120 ملم ومحرك توربيني بقوة 1500 حصان. تتميز بدرع متقدم يوفر حماية عالية للطاقم
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 8,000,000 دولار </small>
+              </p>
+              <a href="./tank1.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/2.jpg"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ليوبارد 2ايه7 (Leopard 2A7)</h5>
+              <p class="card-text">
+                دبابة قتال رئيسية ألمانية، معروفة بقدرتها على المناورة وحمايتها المتقدمة. مزودة بمدفع عيار 120 ملم ونظام دروع مركب يوفر حماية ممتازة
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 15,107,130 دولار </small>
+              </p>
+              <a href="./tank2.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/3.jpg"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">تي-14 أرماتا (T-14 Armata)</h5>
+              <p class="card-text">
+                دبابة قتال رئيسية روسية حديثة، تتميز ببرج غير مأهول ونظام حماية نشط. مزودة بمدفع عيار 125 ملم وتقنيات متقدمة في التحكم والاتصالات
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 4,500,000 دولار</small>
+              </p>
+              <a href="./tank3.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/4.jpg"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">تشالنجر 2 (Challenger 2)</h5>
+              <p class="card-text">
+                دبابة قتال رئيسية بريطانية، معروفة بمتانتها ودقتها في التصويب. مزودة بمدفع عيار 120 ملم ومدرعة بدرع تشوبهام المتقدم 
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 8,600,000 دولار</small>
+              </p>
+              <a href="./tank4.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/5.jpg"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ميركافا مارك 4 (Merkava Mark IV)</h5>
+              <p class="card-text">
+                دبابة قتال رئيسية إسرائيلية، مصممة لتوفير حماية قصوى للطاقم. مزودة بمدفع عيار 120 ملم ونظام حماية نشط ضد الصواريخ الموجهة
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 7,000,000 دولار</small>
+              </p>
+              <a href="./tank5.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/6.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">k2_black_panther_mbt</h5>
+              <p class="card-text">
+                دبابة K2 Black Panther هي دبابة قتال رئيسية (MBT) متقدمة من تطوير كوريا الجنوبية. تم تصميمها لتوفير مزيج من السرعة، القوة النارية، والحماية المتقدمة، مما يجعلها واحدة من أفضل الدبابات في العالم.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 8,000,000 دولار </small>
+              </p>
+              <a href="./tank6.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/7.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">T-14 Armata</h5>
+              <p class="card-text">
+                دبابة T-14 Armata هي دبابة قتال رئيسية روسية من الجيل الجديد تم تطويرها باستخدام منصة Armata متعددة الاستخدامات. تم عرضها لأول مرة في عام 2015، وهي تمثل قفزة كبيرة في التكنولوجيا العسكرية الروسية من حيث الحماية، التسليح، والأنظمة المتقدمة.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 5,000,000 دولار </small>
+              </p>
+              <a href="./tank7.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/8.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Type 90</h5>
+              <p class="card-text">
+                دبابة Type 90 هي دبابة قتال رئيسية طورتها اليابان في أواخر الثمانينات وتم إنتاجها في التسعينات. تمثل هذه الدبابة واحدة من أحدث دبابات القتال الرئيسية في العالم وهي تعد من أبرز الدبابات في الترسانة العسكرية اليابانية.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 8,000,000 دولار </small>
+              </p>
+              <a href="./tank8.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/9.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Leclerc</h5>
+              <p class="card-text">
+                دبابة Leclerc هي واحدة من أكثر دبابات القتال الرئيسية تطورًا في العالم، وقد تم تصميمها لتكون أكثر كفاءة في المعركة مع تحسين الحماية والقدرة على المناورة.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 9,000,000 دولار </small>
+              </p>
+              <a href="./tank9.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-3 p-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./img/دبابات/10.webp"
+              alt="Trendy Pants and Shoes"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Oplot-M</h5>
+              <p class="card-text">
+                دبابة Oplot-M هي واحدة من الدبابات المتقدمة التي تتمتع بقدرة عالية على المناورة وحماية فعالة، مما يجعلها قادرة على مواجهة التهديدات المتقدمة في ساحة المعركة
+              </p>
+              <p class="card-text">
+                <small class="text-muted">السعر: 5,000,000 دولار </small>
+              </p>
+              <a href="./tank10.html"> <button type="button" class="btn btn-primary" data-mdb-ripple-init>تفاصيل اكثر</button> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

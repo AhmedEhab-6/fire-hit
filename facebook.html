@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container-fluid justify-content-between">
+    <ul class="navbar-nav flex-row d-none d-md-flex">
+      <li class="nav-item me-3 me-lg-1">
+        <div>
+          <img
+            src="./img/FIRE-FIT-LOGO.png"
+            class="rounded-circle"
+            height="30"
+            width="55"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+          <strong class="d-none d-sm-block ms-1">FIRE-HIT </strong>
+        </div>
+      </li>
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          data-mdb-dropdown-init
+          class="nav-link dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+          <i class="fas fa-comments fa-lg"></i>
+
+          <span class="badge rounded-pill badge-notification bg-danger">6</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown me-3 me-lg-1">
+        <a
+          data-mdb-dropdown-init
+          class="nav-link dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell fa-lg"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">12</span>
+        </a>
+      </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav flex-row d-none d-md-flex">
+      <li class="nav-item me-3 me-lg-1 active">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-home fa-lg"></i></span>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+      </li>
+
+      <li class="nav-item me-3 me-lg-1">
+        <a class="nav-link" href="#">
+          <span><i class="fas fa-users fa-lg"></i></span>
+          <span class="badge rounded-pill badge-notification bg-danger">2</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="d-flex">
+      
+
+      <div class="container mt-4">
+        <div class="input-group mx-auto" style="max-width: 400px;">
+          <span class="input-group-text bg-light border-0">
+            <i class="bi bi-search"></i>
+          </span>
+          <input type="text" class="form-control rounded-pill" placeholder="ابحث على فيسبوك" style="border-radius: 50px;">
+        </div>
+      </div>
+      <a class="navbar-brand me-2 mb-1 d-flex align-items-center width-300 fs-2" href="#">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+  </div>
+</nav>
+ <Section class="text-bg-dark p-3">
+  <div class="container mt-3">
+  <div class="position-relative">
+      <img src="./img//FIRE-FIT-LOGO.png" class="img-fluid rounded-circle" alt="غلاف" style="height: 300px; width: 100%; object-fit: contain;">
+      <div class="position-absolute top-50 start-0 translate-middle-y p-3">
+        
+      </div>
+  </div>
+</div>
+
+<div class="container mt-5 text-center">
+  <div class="d-flex justify-content-center align-items-center gap-3">
+    <button class="btn btn-primary me-2">
+      <i class="bi bi-hand-thumbs-up"></i> إعجبني
+    </button>
+    <button class="btn btn-secondary me-2">
+      <i class="bi bi-chat-dots"></i> مراسلة
+    </button>
+    <button class="btn btn-light border">
+      <i class="bi bi-search"></i> بحث
+    </button>
+  </div>
+</div>
+
+<div class="container mt-3 text-center">
+  <h2>FIRE-HIT</h2>
+  <p>371 ألف تسجيل إعجاب • 400 ألف متابع</p>
+</div>
+
+<div class="container mt-5">
+  <ul class="nav nav-tabs justify-content-center">
+      <li class="nav-item">
+          <a class="nav-link active" href="#">المنشورات</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="#">حول</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="#">الصور</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="#">المزيد</a>
+      </li>
+  </ul>
+</div>
+ </Section>
+
+ <Section class="d-flex">
+  <div class="left">
+    <div class="container mt-4">
+      <div class="row">
+          <!-- Sidebar -->
+          <div class="">
+              <div class="sidebar shadow-sm">
+                  <h5>نبذة عن الصفحة</h5>
+                  <p>
+                      هذه الصفحة مخصصة ابيع الاسلحة و القنابل و الدبابات.
+                  </p>
+                  <hr>
+                  <h6>روابط مهمة:</h6>
+                  <ul class="list-unstyled">
+                      <li><a href="./index.html" target="_blank">صفحة المعرض</a></li>
+                      <li><a href="./instagram.html" target="_blank">إنستغرام</a></li>
+                  </ul>
+              </div>
+              
+          </div>
+          <div class="container mt-4">
+            <h5 class="mb-3">الصور</h5>
+            <div class="row">
+                <!-- صورة 1 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/-9.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+                </div>              
+                <!-- صورة 2 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/260px-Challenger2-Bergen-Hohne-Training-Area-2.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 3 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/800px-Heckler_&_Koch_MP5-1.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 4 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/VDayRehearsal05052016-28.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 5 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/322960914_1443999952800292_2333835433738198720_n.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 6 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/445798775_986350039765222_6025640499291794367_n.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 7 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/challenger-3-main-battle-tank-1024x576.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+                <!-- صورة 8 -->
+                <div class="col-6 col-md-4 col-lg-3 mb-3 d-flex justify-content-center align-items-center">
+                  <img src="./img/97054864_116376730078287_3058198731171037184_n.jpg" class="img-fluid rounded shadow-sm" alt="صورة 1" style="height: 200px; object-fit: cover;">
+              </div>
+              
+            </div>
+            <a href="#" class="text-primary">عرض كل الصور</a>
+        </div>
+              </div>
+          </div>
+      </div>
+  <div class="right">
+    <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          مجموجة من الاسلحة النارية <br>
+          مجموعة من افضل الاسلحة النارية <br>
+          الحق الفرصة قبل فوات الاوان <br>
+        </p>
+      </div>
+  
+      <img src="./img/download.jpeg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          Glock 17 9mm <br>رمايه تحت الماء <br>
+          مصنوع من بلاستيك ومعدن <br>
+          خفيف الوزن <br>
+        </p>
+      </div>
+  
+      <img src="./img/Glock17.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+      
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+      
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          Heckler & Koch MP5 9mm <br>
+          مسدس رشاش آلي يطلق عيار 9ملم <br>
+          يطلق 700 إلى 900 طلقة في الدقيقة <br>
+
+        </p>
+      </div>
+  
+      <img src="./img/800px-Heckler_&_Koch_MP5-1.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">100k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">15k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          أجمل ما صنعت شركة روجر أنترناشينال.. Ruger🫶🏼♥️ منو تعرف عندة من هذة الموديل حالياً وضامه؟
+
+        </p>
+      </div>
+  
+      <img src="./img/441880182_973549971045229_6345300374222127567_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">90k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">25k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          بين الجمال والرعب تعادل عشر اخوان 🤷🏻‍♂️
+
+        </p>
+      </div>
+  
+      <img src="./img/445798775_986350039765222_6025640499291794367_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">150k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">35k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          اجتماع العمالقة
+        </p>
+      </div>
+  
+      <img src="./img/97054864_116376730078287_3058198731171037184_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">80k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">12k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          حسيت إن الكلاشينكوف ده بيد العرب بس
+        </p>
+      </div>
+  
+      <img src="./img/315515122_659226432477586_3506126810244268535_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          براونيك بلجيكي 4️⃣2️⃣0️⃣ مميز جداً 
+        </p>
+      </div>
+  
+      <img src="./img/322960914_1443999952800292_2333835433738198720_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text">
+          ممنوعات 
+        </p>
+      </div>
+  
+      <img src="./img/463073083_8514668925295268_5609948937464145938_n.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          smoke grenad
+        </p>
+      </div>
+  
+      <img src="./img/SmokeGrenade2.JPG" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          ليوبارد 2 <br>
+          درع إضافي <br>
+          إلكترونيات محدثة <br>
+        </p>
+      </div>
+  
+      <img src="./img/260px-Challenger2-Bergen-Hohne-Training-Area-2.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          T-14 Armata
+        </p>
+      </div>
+  
+      <img src="./img/VDayRehearsal05052016-28.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          Challenger3
+        </p>
+      </div>
+  
+      <img src="./img/challenger-3-main-battle-tank-1024x576.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          ZTZ99
+        </p>
+      </div>
+  
+      <img src="./img/ztz-99a_mbt_20170716-6-1024x768.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  <div class="container mt-5">
+    <div class="card mb-4">
+      <div class="card-header d-flex align-items-center">
+        <img src="./img/FIRE-FIT-LOGO.png" alt="صورة شخصية" class="rounded-circle me-3 d-flex align-items-center justify-content-center" width="70px" height="80px" >
+        <h5 class="mb-0" class="d-flex align-items-center justify-content-center">FIRE-HIT</h5>
+      </div>
+  
+      <div class="card-body">
+        <p class="card-text"> 
+          XL – Leclerc
+        </p>
+      </div>
+  
+      <img src="./img/-9.jpg" class="card-img-top" alt="صورة البوست" width="800px" height="400px">
+  
+      <div class="card-footer d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-hand-thumbs-up text-primary"></i> <span class="ms-1 text-muted">120k إعجاب</span></span>
+        <span><i class="bi bi-chat text-primary"></i> <span class="ms-1 text-muted">20k تعليق</span></span>
+      </div>
+  
+      <div class="card-footer d-flex justify-content-start">
+        <!-- إعجاب -->
+        <button class="btn btn-outline-primary me-2 p-1">
+          <i class="bi bi-hand-thumbs-up fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- تعليق -->
+        <button class="btn btn-outline-secondary me-2 p-1">
+          <i class="bi bi-chat fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      
+        <!-- مشاركة -->
+        <button class="btn btn-outline-success p-1">
+          <i class="bi bi-share fs-4"></i> <!-- تكبير الأيقونة -->
+        </button>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+  
+ </Section>
+  
+
+
+  
+    <script type="text/javascript"></script>
+  </body>
+</html>
+ 
